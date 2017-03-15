@@ -15,3 +15,5 @@ https://help.github.com/articles/syncing-a-fork/
 6. Type "git checkout master": Check out your fork's local master branch.
 
 7. Type "git merge upstream/master": Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
+
+8. When I already have the code on my computer, to create a new repo: New repo -> clone -> git add
