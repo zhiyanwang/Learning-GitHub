@@ -1,3 +1,17 @@
-Create Repository: On GitHub directly.
+1. Create Repository: On GitHub directly.
 
-Link to computer: Clone/Download, copy the HTTP link, open terminal and cd to the work directory on computer, type: git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+https://help.github.com/articles/fork-a-repo/:
+
+2. Type: "git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY" Link to computer: Clone/Download, copy the HTTP link, open terminal and cd to the work directory on computer.
+
+3. Type "git remote -v" and press Enter. You'll see the current configured remote repository for your fork.
+
+4. Type "git remote add upstream", and then paste the URL you copied from original repository and press Enter. It will look like this: git remote add upstream https://github.com/octocat/Spoon-Knife.git
+
+https://help.github.com/articles/syncing-a-fork/
+
+5. Type "git fetch upstream": Fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, upstream/master.
+
+6. Type "git checkout master": Check out your fork's local master branch.
+
+7. Type "git merge upstream/master": Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
